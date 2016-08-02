@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TdBankProject2 Project">
+	<suite name="TdBankProject2 Test Suite">
+		<test name="Tests Using firefox" preserve-order="true">
+			<parameter name="browser" value="chrome" />
+			<classes>
+				<class name="com.tests.MyTest3" />
+			</classes>
+		</test>
+
+		<listeners>
+			<listener class-name="atu.testng.reports.listeners.ATUReportsListener">
+			</listener>
+			<listener class-name="atu.testng.reports.listeners.ConfigurationListener">
+			</listener>
+			<listener class-name="atu.testng.reports.listeners.MethodListener">
+			</listener>
+		</listeners>
+	</suite>
+</project>
